@@ -4,15 +4,19 @@ local lang = {}
 lang.PLACE_OF_ARTICULATION = {
 	-- labials
 	BILABIAL = -10,
+	LABIODENTAL = -9,
+	LINGUOLABIAL = -8,
 	-- coronals
 	DENTAL = -1,
 	ALVEOLAR = 0,
 	POSTALVEOLAR = 1,
+	RETROFLEX = 2,
 	-- dorsals
 	PALATAL = 9,
 	VELAR = 10,
 	UVULAR = 11,
 	-- mongolian throat singing
+	PHARYNGEAL = 19,
 	GLOTTAL = 20,
 	-- ???
 	MENTULAR = 69,
