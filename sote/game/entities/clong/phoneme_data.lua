@@ -1,7 +1,7 @@
 local clong = require "game.entities.clong.clong_common"
 
 return {
-	--- todo
+	-- todo I want these to be Phoneme objects not whatever this nonsense is
 	{
 		IPA = "m",
 		ortho = "m",

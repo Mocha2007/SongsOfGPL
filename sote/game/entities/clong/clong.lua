@@ -1,0 +1,3 @@
+-- this will be where we use a few simple rules to generate a language
+-- eg. "choose /m/ plus maybe 1-2 other nasals"
+-- then game.entities.language will just mostly copy the output of this constructor
