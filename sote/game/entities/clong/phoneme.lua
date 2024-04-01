@@ -14,6 +14,8 @@ local PLACE_OF_ARTICULATION = {
 	UVULAR = 11,
 	-- mongolian throat singing
 	GLOTTAL = 20,
+	-- ???
+	MENTULAR = 69,
 }
 
 ---@enum MANNER_OF_ARTICULATION
@@ -64,10 +66,10 @@ lang.Phoneme.__index = lang.Phoneme
 function lang.Phoneme:new()
 	local o = {}
 
-	o.IPA = ""
-	o.ortho = "" -- should usually be the same as IPA, at least for basic sounds
-	o.manner = 1
-	o.place = 1
+	o.IPA = "x"
+	o.ortho = "x" -- should usually be the same as IPA, at least for basic sounds
+	o.manner = MANNER_OF_ARTICULATION.AFFRICATE
+	o.place = PLACE_OF_ARTICULATION.MENTULAR
 	o.voiced = true
 
 	setmetatable(o, lang.Phoneme)
