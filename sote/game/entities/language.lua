@@ -1,3 +1,5 @@
+-- this file will soon be replaced by code in /clong
+
 local string = require "engine.string"
 
 local lang = {}
